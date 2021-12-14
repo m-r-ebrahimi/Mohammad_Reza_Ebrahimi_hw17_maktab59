@@ -1,95 +1,81 @@
-html{
-    font-size:16px;
-    font-family: quicksand, sans-serif;
-}
-body{
+body {
     margin: 0;
-    background-color: #719885;
-    /*box-sizing: border-box;*/
-    /*border: none;*/
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(117, 159, 139);
 }
 
-.sign_in{
-    background-color: #ffffff;
-    border-radius: 3%;
-    margin: 10rem auto;
-    width: 40rem;
-    height: 20rem;
-    box-sizing: border-box;
-    border: none;
+.title {
+    text-align: center;
+    padding: 50px 0 20px;
+    color: whitesmoke;
+
 }
-.logo{
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    box-sizing: border-box;
-}
-.logo img{
-    height: 90%;
-    margin:5% 5%;
-}
-.login{
-    display:inline-block;
-    width: 50%;
-    height: 100%;
-    float: right;
+
+.title h1 {
     margin: 0;
-    border: none;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 36px;
 }
 
-.login *{
+.container {
+    width: 40%;
+    height: 350px;
+    background: whitesmoke;
+    margin: 0 auto;
+    box-shadow: 0 15px 30px;
+    border-radius: 10px;
 }
 
-.login form{
-    display: block;
-    width:90%;
-    height:100%;
-    margin: 15% 5%;
-}
-
-.login form *{
-    display: block;
-    width: 80%;
-    height: 10%;
-    margin-left: 10%;
-    box-sizing: border-box;
-    border: none;
+.container .picture {
+    float: left;
+    width: 20%;
+    transform: translate(50%, 300%);
     outline: none;
-    /*margin-bottom: 0;*/
-    /*margin-top: 5%;*/
+    height: 40px;
 }
 
-.login form input[type="text"]{
-    border-bottom: #a6af14 solid medium;
+.container .info {
+    float: right;
+    width: 50%;
+    height: 350px;
+    padding: 95px 40px;
 }
 
-.login form input[type="password"]{
-    border-bottom: solid medium;
+.container .info p {
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+    color: rgb(165, 174, 20);
 }
 
-button{
-    border-radius:5%;
-    background-color: #000000;
-    color: #ffffff;
+.container .info input {
+    width: 270px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background: none;
 }
 
-label{
-    color: #a6af14;
+.container .info input[type="text"],
+.container .info input[type="Password"] {
+    border: none;
+    border-bottom: 2px solid #a5ae14;
 }
 
-.username{
-    margin-top:0;
-    margin-bottom: 7%;
+
+.container .info .btn input {
+    border: none;
+    padding: 10px;
+    background-color: #262626;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.password{
-    margin-top:0;
-    margin-bottom: 7%;
-}
-
-a{
-    color: #ff0000;
-    font-size: 0.5rem;
-    margin-top:3%;
+.container .info  {
+    font-size: 12px;
+    font-weight: bold;
 }
 
